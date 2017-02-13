@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bnhp-ziv-2017-02
+  host: bnhp-ziv-2017-02
+  disk_quota: 1024M
+  services:
+  - bnhp-ziv-2017-02-cloudantNoSQLDB
